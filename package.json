@@ -1,0 +1,29 @@
+{
+  "name": "aws-bunyan-loggercatalog",
+  "version": "1.0.0",
+  "description": "Cloudwatch Logger that allows you to re-use loggers based on group and stream they are writing to.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --recursive"
+  },
+  "keywords": [
+    "cloudwatch",
+    "bunyan"
+  ],
+  "author": "Igor Chernyy",
+  "license": "MIT",
+  "dependencies": {
+    "bunyan": "*",
+    "bunyan-cloudwatch": "*"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "eslint": "^3.19.0",
+    "eslint-config-airbnb": "^14.1.0",
+    "eslint-plugin-import": "^2.2.0",
+    "eslint-plugin-jsx-a11y": "^4.0.0",
+    "eslint-plugin-react": "^6.9.0",
+    "mocha": "^3.3.0",
+    "sinon": "^2.2.0"
+  }
+}

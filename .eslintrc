@@ -1,0 +1,14 @@
+{
+  "extends": "airbnb",
+  "plugins": [
+    "react"
+  ],
+  "rules": {
+    "no-unused-expressions": ["error", {
+      "allowTernary": true
+    }],
+    "no-underscore-dangle": "off",
+    "no-console": "off",
+    "no-confusing-arrow": "off"
+  }
+}
