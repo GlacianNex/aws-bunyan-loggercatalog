@@ -25,5 +25,9 @@
     "eslint-plugin-react": "^6.9.0",
     "mocha": "^3.3.0",
     "sinon": "^2.2.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/GlacianNex/aws-bunyan-loggercatalog.git"
   }
 }
